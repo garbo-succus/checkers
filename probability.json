@@ -1,0 +1,35 @@
+{
+  "probability": "2024-01-01",
+  "about": "Wood Checkboard by Jarlan Perez (https://poly.pizza/m/cFejdg3fa2P) is licensed under CC-BY-3.0 (https://creativecommons.org/licenses/by/3.0/)",
+  "states": [
+    {
+      "name": "2 player",
+      "children": [
+        {
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0],
+          "src": "models/checkerboard.glb",
+          "children": [
+            {
+              "position": [0, 1, 0],
+              "rotation": [0, 0, 0],
+              "src": "models/black_piece.glb",
+              "children": [
+                {
+                  "position": [0, 1, 0],
+                  "rotation": [0, 90, 0],
+                  "src": "models/black_piece.glb"
+                }
+              ]
+            },
+            {
+              "position": [2, 1, 0],
+              "rotation": [0, 0, 0],
+              "src": "models/white_piece.glb"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
