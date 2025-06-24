@@ -6,26 +6,124 @@
       "name": "2 player",
       "children": [
         {
+          "name": "Checkerboard",
+          "src": "assets/checkerboard.glb",
           "position": [0, 0, 0],
+          "scale": [30, 30, 30],
           "rotation": [0, 0, 0],
-          "src": "models/checkerboard.glb",
+          "locked": true,
           "children": [
             {
-              "position": [0, 1, 0],
-              "rotation": [0, 0, 0],
-              "src": "models/black_piece.glb",
-              "children": [
-                {
-                  "position": [0, 1, 0],
-                  "rotation": [0, 90, 0],
-                  "src": "models/black_piece.glb"
-                }
-              ]
+              "name": "White token 1",
+              "src": "assets/white_piece.glb",
+              "position": [-0.183, 0.015, -0.165],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
             },
             {
-              "position": [2, 1, 0],
-              "rotation": [0, 0, 0],
-              "src": "models/white_piece.glb"
+              "name": "White token 2",
+              "src": "assets/white_piece.glb",
+              "position": [-0.135, 0.015, -0.12],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "White token 3",
+              "src": "assets/white_piece.glb",
+              "position": [-0.09, 0.015, -0.165],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "White token 4",
+              "src": "assets/white_piece.glb",
+              "position": [-0.042, 0.015, -0.12],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "White token 5",
+              "src": "assets/white_piece.glb",
+              "position": [0.006, 0.015, -0.165],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "White token 6",
+              "src": "assets/white_piece.glb",
+              "position": [0.066, 0.015, -0.12],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "White token 7",
+              "src": "assets/white_piece.glb",
+              "position": [0.114, 0.015, -0.165],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "White token 8",
+              "src": "assets/white_piece.glb",
+              "position": [0.159, 0.015, -0.12],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "Black token 1",
+              "src": "assets/black_piece.glb",
+              "position": [-0.174, 0.015, 0.12],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "Black token 2",
+              "src": "assets/black_piece.glb",
+              "position": [-0.126, 0.015, 0.18],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "Black token 3",
+              "src": "assets/black_piece.glb",
+              "position": [-0.078, 0.015, 0.12],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "Black token 4",
+              "src": "assets/black_piece.glb",
+              "position": [-0.033, 0.015, 0.18],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "Black token 5",
+              "src": "assets/black_piece.glb",
+              "position": [0.015, 0.015, 0.12],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "Black token 6",
+              "src": "assets/black_piece.glb",
+              "position": [0.075, 0.015, 0.18],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "Black token 7",
+              "src": "assets/black_piece.glb",
+              "position": [0.123, 0.015, 0.12],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
+            },
+            {
+              "name": "Black token 8",
+              "src": "assets/black_piece.glb",
+              "position": [0.171, 0.015, 0.18],
+              "scale": [30, 30, 30],
+              "rotation": [0, 0, 0]
             }
           ]
         }
