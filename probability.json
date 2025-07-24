@@ -1,6 +1,20 @@
 {
   "probability": "2024-01-01",
-  "about": "Wood Checkboard by Jarlan Perez (https://poly.pizza/m/cFejdg3fa2P) is licensed under CC-BY-3.0 (https://creativecommons.org/licenses/by/3.0/)",
+  "templates": {
+    "defaults": {
+      "scale": [30, 30, 30]
+    },
+    "white-token": {
+      "name": "White token",
+      "src": "assets/white-token.glb",
+      "template": "defaults"
+    },
+    "black-token": {
+      "name": "Black token",
+      "src": "assets/black-token.glb",
+      "template": "defaults"
+    }
+  },
   "states": [
     {
       "name": "2 player",
@@ -8,122 +22,72 @@
         {
           "name": "Checkerboard",
           "src": "assets/checkerboard.glb",
-          "position": [0, 0, 0],
-          "scale": [30, 30, 30],
-          "rotation": [0, 0, 0],
+          "template": "defaults",
           "locked": true,
           "children": [
             {
-              "name": "White token 1",
-              "src": "assets/white_piece.glb",
-              "position": [-0.183, 0.015, -0.165],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "white-token",
+              "position": [-0.183, 0.015, -0.165]
             },
             {
-              "name": "White token 2",
-              "src": "assets/white_piece.glb",
-              "position": [-0.135, 0.015, -0.12],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "white-token",
+              "position": [-0.135, 0.015, -0.12]
             },
             {
-              "name": "White token 3",
-              "src": "assets/white_piece.glb",
-              "position": [-0.09, 0.015, -0.165],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "white-token",
+              "position": [-0.09, 0.015, -0.165]
             },
             {
-              "name": "White token 4",
-              "src": "assets/white_piece.glb",
-              "position": [-0.042, 0.015, -0.12],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "white-token",
+              "position": [-0.042, 0.015, -0.12]
             },
             {
-              "name": "White token 5",
-              "src": "assets/white_piece.glb",
-              "position": [0.006, 0.015, -0.165],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "white-token",
+              "position": [0.006, 0.015, -0.165]
             },
             {
-              "name": "White token 6",
-              "src": "assets/white_piece.glb",
-              "position": [0.066, 0.015, -0.12],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "white-token",
+              "position": [0.066, 0.015, -0.12]
             },
             {
-              "name": "White token 7",
-              "src": "assets/white_piece.glb",
-              "position": [0.114, 0.015, -0.165],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "white-token",
+              "position": [0.114, 0.015, -0.165]
             },
             {
-              "name": "White token 8",
-              "src": "assets/white_piece.glb",
-              "position": [0.159, 0.015, -0.12],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "white-token",
+              "position": [0.159, 0.015, -0.12]
             },
             {
-              "name": "Black token 1",
-              "src": "assets/black_piece.glb",
-              "position": [-0.174, 0.015, 0.12],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "black-token",
+              "position": [-0.174, 0.015, 0.12]
             },
             {
-              "name": "Black token 2",
-              "src": "assets/black_piece.glb",
-              "position": [-0.126, 0.015, 0.18],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "black-token",
+              "position": [-0.126, 0.015, 0.18]
             },
             {
-              "name": "Black token 3",
-              "src": "assets/black_piece.glb",
-              "position": [-0.078, 0.015, 0.12],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "black-token",
+              "position": [-0.078, 0.015, 0.12]
             },
             {
-              "name": "Black token 4",
-              "src": "assets/black_piece.glb",
-              "position": [-0.033, 0.015, 0.18],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "black-token",
+              "position": [-0.033, 0.015, 0.18]
             },
             {
-              "name": "Black token 5",
-              "src": "assets/black_piece.glb",
-              "position": [0.015, 0.015, 0.12],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "black-token",
+              "position": [0.015, 0.015, 0.12]
             },
             {
-              "name": "Black token 6",
-              "src": "assets/black_piece.glb",
-              "position": [0.075, 0.015, 0.18],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "black-token",
+              "position": [0.075, 0.015, 0.18]
             },
             {
-              "name": "Black token 7",
-              "src": "assets/black_piece.glb",
-              "position": [0.123, 0.015, 0.12],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "black-token",
+              "position": [0.123, 0.015, 0.12]
             },
             {
-              "name": "Black token 8",
-              "src": "assets/black_piece.glb",
-              "position": [0.171, 0.015, 0.18],
-              "scale": [30, 30, 30],
-              "rotation": [0, 0, 0]
+              "template": "black-token",
+              "position": [0.171, 0.015, 0.18]
             }
           ]
         }
